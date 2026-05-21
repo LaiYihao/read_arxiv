@@ -97,9 +97,7 @@ class Phase5Report:
         review_mode = result.get("review_mode", "methodology-focus")
         review_note = " （摘要评审）" if result.get("is_abstract_only") else ""
 
-        entry = f"""<a id="deep-dive-{index}"></a>
-
-### [{index}] {paper.title}
+        entry = f"""### [{index}] {paper.title}
 
 - **arXiv ID**: [{paper.arxiv_id}](https://arxiv.org/abs/{paper.arxiv_id})
 - **作者**: {authors_str}
@@ -163,9 +161,7 @@ class Phase5Report:
         score_str = f"{paper.score:.1f}" if paper.score else "N/A"
         keywords_str = ", ".join(paper.matched_keywords) if paper.matched_keywords else ""
 
-        entry = f"""<a id="quick-{index}"></a>
-
-### [{index}] {paper.title}
+        entry = f"""### [{index}] {paper.title}
 
 - **arXiv ID**: [{paper.arxiv_id}](https://arxiv.org/abs/{paper.arxiv_id})
 - **作者**: {authors_str}
