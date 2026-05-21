@@ -1,0 +1,61 @@
+{
+  "keywords": [
+    {
+      "term": "blue loop",
+      "weight": 12,
+      "aliases": ["blue loops"]
+    },
+    {
+      "term": "X-ray binary",
+      "weight": 8,
+      "aliases": ["X-ray binaries", "XRB", "HMXB", "LMXB", "high-mass X-ray binary", "low-mass X-ray binary"]
+    },
+    {
+      "term": "mass transfer",
+      "weight": 6,
+      "aliases": ["Roche lobe overflow", "RLOF", "Roche-lobe overflow", "mass exchange", "mass-loss", "mass loss"]
+    },
+    {
+      "term": "binary evolution",
+      "weight": 6,
+      "aliases": ["binary star evolution", "binary system evolution", "close binary"]
+    },
+    {
+      "term": "stellar evolution",
+      "weight": 4,
+      "aliases": ["stellar models", "stellar interior", "stellar structure"]
+    },
+    {
+      "term": "common envelope",
+      "weight": 2,
+      "aliases": ["common-envelope", "CE evolution", "envelope ejection"]
+    },
+    {
+      "term": "accretion",
+      "weight": 3,
+      "aliases": ["accretion disk", "accretion disc", "accreting"]
+    },
+    {
+      "term": "supernova",
+      "weight": 2,
+      "aliases": ["supernovae", "core-collapse", "CCSN", "SN explosion"]
+    },
+    {
+      "term": "neutron star",
+      "weight": 2,
+      "aliases": ["neutron stars", "pulsar"]
+    },
+    {
+      "term": "black hole",
+      "weight": 2,
+      "aliases": ["black holes", "BH", "stellar-mass black hole"]
+    }
+  ],
+  "deep_dive_threshold": 10,
+  "arxiv_categories": [
+    "astro-ph.SR",
+    "astro-ph.HE",
+    "astro-ph.GA"
+  ],
+  "max_papers_per_day": 200
+}
