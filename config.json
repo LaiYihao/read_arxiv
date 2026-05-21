@@ -6,6 +6,11 @@
       "aliases": ["blue loops"]
     },
     {
+      "term": "MESA",
+      "weight": 10,
+      "aliases": ["mesa", "Modules for Experiments in Stellar Astrophysics"]
+    },
+    {
       "term": "X-ray binary",
       "weight": 8,
       "aliases": ["X-ray binaries", "XRB", "HMXB", "LMXB", "high-mass X-ray binary", "low-mass X-ray binary"]
